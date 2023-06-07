@@ -1,5 +1,5 @@
 ## homebridge-remote-ssh
-==============
+
 Supports triggering ssh commands on the HomeBridge platform.
 
 ## Installation
