@@ -126,7 +126,7 @@ class SshAccessory implements AccessoryPlugin {
     this.stateCommand = config["state"]
     this.onValue = config["on_value"] || "playing"
     this.onValue = this.onValue.trim().toLowerCase()
-    this.exactMatch = config["exact_match"] || true
+    this.exactMatch = config["exact_match"] || false
     this.ssh = assign(
       {
         user: config["user"],
